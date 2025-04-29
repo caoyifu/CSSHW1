@@ -1,0 +1,55 @@
+/* Style the body */
+body {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 150%;
+  }
+  
+  /* Style the header */
+  header {
+    background-color:rgb(127, 255, 142); 
+    display: inline-block;
+  }
+  
+  /* Style the nav */
+  nav {
+    background-color:white;
+    padding: 10px;
+  }
+  
+  /* Style the main */
+  main {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;
+    padding: 30px;
+    background-color: lightblue;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color:aliceblue;
+    color: black;
+    padding: 30px;
+  }
+  
+  /* Style the list items */
+  li {
+    font-family: 'Times New Roman', Times, serif;
+    display: inline-block;
+    width: 100%;
+  }
+  
+  /* Style the h1 */
+  h1 {
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    color:black;
+  }
+  
+  /* Style the paragraph */
+  p {
+    text-align: left;
+    line-height: normal;
+  }
+  
+
+  
