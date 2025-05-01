@@ -6,14 +6,16 @@ body {
   
   /* Style the header */
   header {
-    background-color:rgb(127, 255, 142); 
+    background-color:lightgrey; 
     display: inline-block;
   }
   
   /* Style the nav */
   nav {
-    background-color:white;
-    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 150%;
   }
   
   /* Style the main */
@@ -21,22 +23,22 @@ body {
     font-family: 'Times New Roman', Times, serif;
     font-size: 100%;
     padding: 30px;
-    background-color: lightblue;
+    background-color: yellow;
   }
   
   /* Style the footer */
   footer {
-    background-color:aliceblue;
+    background-color:lightgrey;
     color: black;
     padding: 30px;
   }
   
   /* Style the list items */
-  li {
+  /* li {
     font-family: 'Times New Roman', Times, serif;
     display: inline-block;
     width: 100%;
-  }
+  } */
   
   /* Style the h1 */
   h1 {
@@ -51,5 +53,27 @@ body {
     line-height: normal;
   }
   
+  nav img{
+    width: 10%;
+    position: relative; 
+    top: 20px
+  }
 
+  .grid{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content:space-around;
+    align-items:center;
+    row-gap: 20px;
+  }
+
+  .grid img {
+    width: 100%;
+  }
+
+  .flex{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
   
